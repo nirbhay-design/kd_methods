@@ -18,6 +18,7 @@ bash run.sh
 ## Results 
 
 |Model|Accuracy|
+|---|---|
 |Teacher|92.58|
 |Student|79.09|
 |Student + kd|80.44|
