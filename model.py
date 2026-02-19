@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 import torchvision.models as models
 
 class TeacherResNet(nn.Module):
@@ -11,7 +12,7 @@ class TeacherResNet(nn.Module):
         else:
             base_model = models.resnet18(weights=None)
             
-        # Modify the stem for CIFAR-10
+        # Modify for CIFAR-10
         base_model.conv1 = nn.Conv2d(3, 64, kernel_size=3, stride=1, padding=1, bias=False)
         base_model.maxpool = nn.Identity()
         

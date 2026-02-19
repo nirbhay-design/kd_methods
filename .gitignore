@@ -5,7 +5,9 @@ __pycache__/
 *.pyd
 *.so      
 
-saved_models/ 
+saved_model/ 
 *.pth 
 *.pt
 *.ckpt 
+
+data/

@@ -1,0 +1,19 @@
+
+==================================================
+Parameter                 | Value               
+==================================================
+teacher_arch              | resnet18            
+teacher_path              | saved_model/teacher_resnet18_best.pth
+batch_size                | 128                 
+lr                        | 0.05                
+epochs                    | 100                 
+temperature               | 4.0                 
+alpha                     | 0.9                 
+device                    | cuda:0              
+==================================================
+
+Files already downloaded and verified
+Files already downloaded and verified
+<All keys matched successfully>
+Epoch [1/100] - Train Loss: 7.1738 | Test Loss: 1.5460 | Test Acc: 57.47%
+Epoch [2/100] - Train Loss: 4.9019 | Test Loss: 1.4000 | Test Acc: 61.99%

@@ -1,0 +1,16 @@
+
+==================================================
+Parameter                 | Value               
+==================================================
+teacher_arch              | resnet18            
+teacher_path              | saved_model/teacher_resnet18_best.pth
+batch_size                | 128                 
+lr                        | 0.05                
+epochs                    | 100                 
+sp_weight                 | 3000.0              
+device                    | cuda:0              
+==================================================
+
+Files already downloaded and verified
+Files already downloaded and verified
+<All keys matched successfully>
