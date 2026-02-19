@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+*.so      
+
+saved_models/ 
+*.pth 
+*.pt
+*.ckpt 
